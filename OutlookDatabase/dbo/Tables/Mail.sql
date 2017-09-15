@@ -9,3 +9,10 @@
     [TextBody]     VARCHAR (MAX) NULL
 );
 
+
+
+
+GO
+CREATE UNIQUE CLUSTERED INDEX [CI_dbo_Mail_Index]
+    ON [dbo].[Mail]([Index] ASC);
+
